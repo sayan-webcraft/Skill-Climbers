@@ -3,5 +3,7 @@ Skill Climbers is a developing e-learning platform designed to offer an engaging
 
 ## Features
 • Visually appealing and responsive design
+
 • User-friendly interface for seamless navigation
+
 • Optimized for accessibility and engagement
