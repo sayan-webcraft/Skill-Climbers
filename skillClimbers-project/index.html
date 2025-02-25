@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill Climbers - Online Learning Platform for a Brighter Tomorrow</title>
+    <!-- fevicon -->
+    <link rel="icon" type="image/png" href="./assets/images/logo image 1.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- custom icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body id="top">
+
+    <!-- LOADING SCREEN -->
+    <div class="loader-wrapper">
+      <span class="loader">Loading</span>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <a
+          href="index.html"
+          class="logo"
+          style="display: flex; align-items: center"
+        >
+          <img
+            src="./assets/images/logo image 1.png"
+            alt="logo image"
+            width="50"
+          />
+          <p style="color: #0c0c0c; font-weight: 600; padding-inline: 0.1rem">
+            Skill Climbers.
+          </p>
+        </a>
+
+        <nav class="navbar">
+          <div class="wrapper">
+            <!--Wrapper for Mobile Optimization-->
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo image 2.png"
+                alt="logo iamge"
+                width="50"
+              />
+            </a>
+            <button class="close-menu">
+              <i class="ri-close-large-line"></i>
+            </button>
+          </div>
+
+          <ul>
+            <li><a href="#home" class="link">Home</a></li>
+            <li><a href="#categories" class="link">Categories</a></li>
+            <li><a href="#courses" class="link">Courses</a></li>
+            <li><a href="#about" class="link">About</a></li>
+            <li><a href="#testimonials" class="link">Stories</a></li>
+            <li><a href="#CodeLab" class="link" style="color: #ff7f50;font-weight: 600;"><abbr title="COMING SOON!" style="text-decoration: none;">CodeLab✨</abbr></a></li>
+          </ul>
+
+          <div class="btn-wrapper">
+            <a href="./auth/signIn.html" class="btn">Sign in</a>
+            <a href="./auth/signUp.html" class="btn btn-primary">Sign up</a>
+          </div>
+        </nav>
+
+        <button class="open-menu">
+          <i class="ri-menu-line"></i>
+        </button>
+
+        <div class="overlay"></div>
+      </div>
+    </header>
+ 
+
+    <!-- MAIN -->
+    <main>
+
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle">20% discount on every course</p>
+            <p class="hero-title">Achieve top skills with smart guidance</p>
+            <p class="hero-text">
+              If you’re looking for the best courses, you’re in the right place.
+              Learn practical skills from top educators and take the next step
+              toward achieving your goals today!
+            </p>
+            <button class="hero-btn">
+              Get Started
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <div class="hero-banner">
+            <img src="./assets/images/hero banner.png" alt="banner" loading="lazy"/>
+          </div>
+        </div>
+      </section>
+
+      <!-- CAREGORIES -->
+      <section class="categories" id="categories">
+        <div class="container">
+          <div class="categories-content">
+            <p class="subtitle">CATEGORIES</p>
+            <h2 class="title">Top Categories</h2>
+            <p class="categories-text">
+              Explore our most popular categories and discover courses designed
+              to help you master new skills and achieve your goals. From tech to
+              creativity, there’s something for everyone!
+            </p>
+          </div>
+          <div class="card-wrapper">
+            <!-- card 01 -->
+            <div class="card">
+              <img
+                src="./assets/images/ui-design.png"
+                alt="Graphic design"
+                width="80"
+                height="80"
+              />
+              <div class="card-content">
+                <h2 class="card-title">Graphic Design</h2>
+                <p class="card-text">10k+ learners</p>
+              </div>
+            </div>
+            <!-- card 02 -->
+            <div class="card">
+              <img
+                src="./assets/images/video-editor.png"
+                alt="Video editing"
+                width="80"
+                height="80"
+              />
+              <div class="card-content">
+                <h2 class="card-title">Video Editing</h2>
+                <p class="card-text">15k+ learners</p>
+              </div>
+            </div>
+            <!-- card 03 -->
+            <div class="card">
+              <img
+                src="./assets/images/data.png"
+                alt="Data science"
+                width="80"
+                height="80"
+              />
+              <div class="card-content">
+                <h2 class="card-title">Data Science</h2>
+                <p class="card-text">5k+ learners</p>
+              </div>
+            </div>
+            <!-- card 04 -->
+            <div class="card">
+              <img
+                src="./assets/images/marketing-agency.png"
+                alt="Digital marketing"
+                width="80"
+                height="80"
+              />
+              <div class="card-content">
+                <h2 class="card-title">Digital marketing</h2>
+                <p class="card-text">14k+ learners</p>
+              </div>
+            </div>
+            <!-- card 05 -->
+            <div class="card">
+              <img
+                src="./assets/images/production.png"
+                alt="Music production"
+                width="80"
+                height="80"
+              />
+              <div class="card-content">
+                <h2 class="card-title">Music Production</h2>
+                <p class="card-text">7k+ learners</p>
+              </div>
+            </div>
+            <!-- card 06 -->
+            <div class="card">
+              <img
+                src="./assets/images/world-wide-web.png"
+                alt="Music production"
+                width="80"
+                height="80"
+              />
+              <div class="card-content">
+                <h2 class="card-title">Web Development</h2>
+                <p class="card-text">27k+ learners</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COURSES -->
+      <section class="courses" id="courses">
+        <div class="container">
+          <div class="subtitle">COURSES</div>
+          <h2 class="title">Our most popular courses</h2>
+
+          <div class="courses-wrapper">
+            <!-- course 01 -->
+            <div class="course">
+              <p class="badge-seller">Best seller</p>
+              <div class="img-holder">
+                <img
+                  src="assets/images/course 01.jpg"
+                  alt="Full-Stack Web Development"
+                  loading="lazy"
+                />
+              </div>
+              <div class="course-content">
+                <p class="level">Intermediate</p>
+                <h3 class="card-title">Full-Stack Web Development</h3>
+                <div class="course-stats">
+                  <span class="duration">
+                    <i class="ri-time-line"></i> 26h 50m</span
+                  >
+                  |
+                  <span class="learners"
+                    ><i class="ri-account-circle-line"></i> 5k+ learners</span
+                  >
+                  |
+                  <span class="rating"
+                    ><i class="ri-star-s-fill star"></i> 4.7/5</span
+                  >
+                </div>
+                <div class="btn-wrapper">
+                  <button class="btn">More Info</button>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <!-- course 02 -->
+            <div class="course">
+              <div class="img-holder">
+                <img
+                  src="assets/images/course 02.jpg"
+                  alt="UI/UX Design Essentials"
+                  loading="lazy"
+                />
+              </div>
+              <div class="course-content">
+                <p class="level">Beginner</p>
+                <h3 class="card-title">UI/UX Design Essentials</h3>
+                <div class="course-stats">
+                  <span class="duration">
+                    <i class="ri-time-line"></i> 15h 25m</span
+                  >
+                  |
+                  <span class="learners"
+                    ><i class="ri-account-circle-line"></i> 25k+ learners</span
+                  >
+                  |
+                  <span class="rating"
+                    ><i class="ri-star-s-fill star"></i> 4.7/5</span
+                  >
+                </div>
+                <div class="btn-wrapper">
+                  <button class="btn">More Info</button>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <!-- course 03 -->
+            <div class="course">
+              <div class="img-holder">
+                <img
+                  src="assets/images/course 03.jpg"
+                  alt="Digital Illustration for Beginners"
+                  loading="lazy"
+                />
+              </div>
+              <div class="course-content">
+                <p class="level">Beginner</p>
+                <h3 class="card-title">Digital Illustration for Beginners</h3>
+                <div class="course-stats">
+                  <span class="duration">
+                    <i class="ri-time-line"></i> 10h</span
+                  >
+                  |
+                  <span class="learners"
+                    ><i class="ri-account-circle-line"></i> 9.6k+ learners</span
+                  >
+                  |
+                  <span class="rating"
+                    ><i class="ri-star-s-fill star"></i> 4.7/5</span
+                  >
+                </div>
+                <div class="btn-wrapper">
+                  <button class="btn">More Info</button>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <!-- course 04 -->
+            <div class="course">
+              <div class="img-holder">
+                <img
+                  src="assets/images/course 04.jpg"
+                  alt="Introduction to Python Programming"
+                  loading="lazy"
+                />
+              </div>
+              <div class="course-content">
+                <p class="level">Beginner</p>
+                <h3 class="card-title">Introduction to Python Programming</h3>
+                <div class="course-stats">
+                  <span class="duration">
+                    <i class="ri-time-line"></i> 26h 30m</span
+                  >
+                  |
+                  <span class="learners"
+                    ><i class="ri-account-circle-line"></i> 15k+ learners</span
+                  >
+                  |
+                  <span class="rating"
+                    ><i class="ri-star-s-fill star"></i> 4.7/5</span
+                  >
+                </div>
+                <div class="btn-wrapper">
+                  <button class="btn">More Info</button>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <!-- course 05 -->
+            <div class="course">
+              <div class="img-holder">
+                <img
+                  src="assets/images/course 05.jpg"
+                  alt="2D Animation Basics"
+                  loading="lazy"
+                />
+              </div>
+              <div class="course-content">
+                <p class="level">Beginner</p>
+                <h3 class="card-title">2D Animation Basics</h3>
+                <div class="course-stats">
+                  <span class="duration">
+                    <i class="ri-time-line"></i> 32h 50m</span
+                  >
+                  |
+                  <span class="learners"
+                    ><i class="ri-account-circle-line"></i> 5k+ learners</span
+                  >
+                  |
+                  <span class="rating"
+                    ><i class="ri-star-s-fill star"></i> 4.7/5</span
+                  >
+                </div>
+                <div class="btn-wrapper">
+                  <button class="btn">More Info</button>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <!-- course 06 -->
+            <div class="course">
+              <div class="img-holder">
+                <img
+                  src="assets/images/course 06.jpg"
+                  alt="Game Development with Unity"
+                  loading="lazy"
+                />
+              </div>
+              <div class="course-content">
+                <p class="level">Advanced</p>
+                <h3 class="card-title">Game Development with Unity</h3>
+                <div class="course-stats">
+                  <span class="duration">
+                    <i class="ri-time-line"></i> 50h 20m</span
+                  >
+                  |
+                  <span class="learners"
+                    ><i class="ri-account-circle-line"></i> 20k learners</span
+                  >
+                  |
+                  <span class="rating"
+                    ><i class="ri-star-s-fill star"></i> 4.7/5</span
+                  >
+                </div>
+                <div class="btn-wrapper">
+                  <button class="btn">More Info</button>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <!-- course 07 -->
+            <div class="course">
+              <div class="img-holder">
+                <img
+                  src="assets/images/course 07.jpg"
+                  alt="Game Development with Unity"
+                  loading="lazy"
+                />
+              </div>
+              <div class="course-content">
+                <p class="level">Intermediate</p>
+                <h3 class="card-title">Photography and Editing</h3>
+                <div class="course-stats">
+                  <span class="duration">
+                    <i class="ri-time-line"></i> 16h 50m</span
+                  >
+                  |
+                  <span class="learners"
+                    ><i class="ri-account-circle-line"></i> 4k learners</span
+                  >
+                  |
+                  <span class="rating"
+                    ><i class="ri-star-s-fill star"></i> 4.7/5</span
+                  >
+                </div>
+                <div class="btn-wrapper">
+                  <button class="btn">More Info</button>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <!-- course 08 -->
+            <div class="course">
+              <div class="img-holder">
+                <img
+                  src="assets/images/course 08.jpg"
+                  alt="Game Development with Unity"
+                  loading="lazy"
+                />
+              </div>
+              <div class="course-content">
+                <p class="level">Intermediate</p>
+                <h3 class="card-title">Graphic Design Masterclass</h3>
+                <div class="course-stats">
+                  <span class="duration">
+                    <i class="ri-time-line"></i> 8h 20m</span
+                  >
+                  |
+                  <span class="learners"
+                    ><i class="ri-account-circle-line"></i> 34k learners</span
+                  >
+                  |
+                  <span class="rating"
+                    ><i class="ri-star-s-fill star"></i> 4.7/5</span
+                  >
+                </div>
+                <div class="btn-wrapper">
+                  <button class="btn">More Info</button>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="browser-more">Browse More</button>
+        </div>
+      </section>
+
+      <!-- ABOUT US -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-title">
+            <h2 class="title">ABOUT US</h2>
+            <p class="text">
+              Through diverse courses, we help learners to master skills and
+              achieve their career goals.
+            </p>
+          </div>
+          <div class="wrapper">
+            <div class="about-banner">
+              <img src="./assets/images/about banner.png" alt="about banner" />
+            </div>
+            <div class="about-content">
+              <h2 class="title">Empowering Students For Success🧡</h2>
+              <p class="text">
+                Dedicated to helping learners reach their full potential, by
+                providing quality education. Our goal is to equip students with
+                the skills they need for success. With a focus on building a
+                strong community, we aim to support every learner in achieving
+                their dreams and preparing for a successful future.
+              </p>
+              <div class="stats-wrapper">
+                <div class="stat">
+                  <h3>2k+</h3>
+                  <p>Skilled Trainer</p>
+                </div>
+                <div class="stat">
+                  <h3>72k+</h3>
+                  <p>Student Learning</p>
+                </div>
+                <div class="stat">
+                  <h3>5+</h3>
+                  <p>Years of experience</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <div class="testimonial-title">
+            <p class="subtitle">STORIES</p>
+            <h2 class="title">What Our students say</h2>
+          </div>
+
+          <div class="reviews-wrapper">
+            <!-- Review 01 -->
+            <div class="review">
+              <img src="/assets/images/Srishti Dixit.png" alt="Srishti Dixit" />
+              <p class="name">– Srishti Dixit, Software Engineer</p>
+              <p class="text">
+                "Thanks to Skill Climbers, I secured my dream job in just a few months.
+                The guidance and practical skills I gained here changed my life
+                for the better!"
+              </p>
+            </div>
+            <!-- Review 02 -->
+            <div class="review">
+              <img src="/assets/images/Aryan Roy.png" alt="Aryan Roy" />
+              <p class="name">– Aryan Roy, Data Analyst</p>
+              <p class="text">
+                "This platform gave me the confidence and skills I needed to
+                advance in my career. It's more than just learning – it's about
+                building a brighter future!"
+              </p>
+            </div>
+            <!-- Review 03 -->
+            <div class="review">
+              <img src="/assets/images/Priya Verma.png" alt="Priya Verma" />
+              <p class="name">– Priya Verma, Graphic Designer</p>
+              <p class="text">
+                "I can't thank Skill Climbers enough. The lessons were clear, and the
+                support was incredible. Now, I’m living my dream life!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CALL TO ACTION (CTA) -->
+       <section class="cta">
+        <div class="container">
+          <h2 class="title">Sign up for updates & Newsletter</h2>
+          <form class="input-field">
+            <input type="email" aria-label="email" placeholder="Enter Email" required>
+            <button class="subscribe-btn" type="submit">
+              <i class="ri-send-plane-fill"></i>
+            </button>
+          </form>
+        </div>
+       </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+          <div class="container">
+            <div class="footer-top">
+
+              <div class="footer-content">
+                <a href="#" class="logo">
+                  <img src="./assets/images/logo image 2.png" alt="footer logo" height="50" width="50">
+                </a>
+                <p class="footer-text">
+                  Dedicated to helping learners reach their full potential, by
+                  providing quality education.
+                </p>
+                <div class="social-links">
+                  <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                  <a href="#"><i class="ri-youtube-fill"></i></a>
+                  <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                  <a href="#"><i class="ri-twitter-x-line"></i></a>
+                </div>
+              </div>
+
+              <div class="footer-list">
+                <p>Company</p>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Press</a></li>
+              </div>
+              <div class="footer-list">
+                <p>Community</p>
+                <li><a href="#">Team Plans</a></li>
+                <li><a href="#">Schoolarships</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Blog</a></li>
+              </div>
+              <div class="footer-list">
+                <p>Conatct Us</p>
+                <li><a href="#"><i class="ri-map-pin-fill"></i> Kolkata, India</a></li>
+                <li><a href="mailto:skillclimbers@gmail.com"><i class="ri-mail-fill"></i> skillclimbers@gmail.com</a></li>
+                <li><a href="tell: +918145607039"><i class="ri-phone-fill"></i> +91-8145607039</a></li>
+                <li><a href="./forms/query-form.html"><i class="ri-questionnaire-fill"></i> Ask Query</a></li>
+              </div>
+              
+            </div>
+            <p class="copyright-info">
+              © Copyright <span id="date"></span> by Skill Climbers. All right reserved.
+            </p>
+          </div>
+    </footer>
+
+    <!-- REACH TOP BUTTON -->
+    <a href="#top" class="top-btn"><i class="ri-arrow-up-line"></i></a>
+
+    <!-- javascript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
