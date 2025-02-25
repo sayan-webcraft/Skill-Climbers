@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@600&family=Poppins:wght@500;600;700&display=swap");
+
+:root {
+  --ff-poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--ff-poppins);
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom right, #ffebcc, #ff7f50);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.query-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.query-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.query-title {
+  font-size: 1.8rem;
+  color: #ff3d00;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+}
+
+input,
+textarea {
+  /* width: 100%; */
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ff3d00;
+  box-shadow: 0 0 5px rgba(255, 61, 0, 0.4);
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.query-btn {
+  background: #FF3D00;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: 600;
+}
+
+.query-btn:hover {
+  background: #ab1f00;
+}
+
+@media (max-width: 768px) {
+    .query-card {
+      padding: 20px;
+    }
+  
+    .query-title {
+      font-size: 1.6rem;
+    }
+  
+    label {
+      font-size: 0.9rem;
+    }
+  
+    input,
+    textarea {
+      font-size: 13px;
+      padding: 10px;
+    }
+  
+    .query-btn {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .query-card {
+      max-width: 90%;
+      padding: 15px;
+    }
+  
+    .query-title {
+      font-size: 1.4rem;
+    }
+  
+    label {
+      font-size: 0.85rem;
+    }
+  
+    input,
+    textarea {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .query-btn {
+      font-size: 13px;
+      padding: 8px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .query-card {
+      max-width: 700px;
+      padding: 40px;
+    }
+  
+    .query-title {
+      font-size: 2rem;
+    }
+  
+    label {
+      font-size: 1.1rem;
+    }
+  
+    input,
+    textarea {
+      font-size: 16px;
+      padding: 14px;
+    }
+  
+    .query-btn {
+      font-size: 18px;
+      padding: 14px;
+    }
+  }

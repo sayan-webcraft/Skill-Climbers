@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Form - Skill Climbers</title>
+    <link rel="stylesheet" href="query-form.css".css">
+</head>
+<body>
+
+    <div class="query-container">
+        <div class="query-card">
+          <h1 class="query-title">Ask a Query</h1>
+          <form action="#" method="POST">
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      
+            <label for="email">Enter Email*</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      
+            <label for="contact">Contact Number*</label>
+            <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" pattern="[0-9]{10}" required />
+      
+            <label for="query">Enquiry*</label>
+            <textarea id="query" name="query" placeholder="Please enter your query here..." required></textarea>
+      
+            <button type="submit" class="query-btn">Send Query</button>
+          </form>
+        </div>
+      </div>
+      
+    
+</body>
+</html>

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@600&family=Poppins:wght@500;600;700&display=swap");
+
+:root {
+  --ff-poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--ff-poppins);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #ffebcc, #ff7f50);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-inline: 20px;
+  box-sizing: border-box;
+}
+
+.signin-card {
+  background: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 #ff7f5040, 0 4px 16px 0 rgba(0,0,0,.2);  
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin-title {
+  font-size: 1.5rem;  
+  color: #FF3D00;
+  margin-bottom: 0.2rem;
+}
+
+.signin-subtitle {
+  font-size: 1rem;  
+  color: #666;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+}
+
+input {
+  padding: 12px; 
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+
+input:focus {
+  border-color: #FF3D00;
+  box-shadow: 0 0 5px rgba(255, 61, 0, 0.4);
+}
+
+.signin-btn {
+  background: #FF3D00;
+  color: #FFF;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;  /* Added transition */
+}
+
+.signin-btn:hover {
+  background: #e63a00;
+}
+
+.signin-links {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forgot-password, .signup-link {
+  font-size: 14px;
+  color: #FF3D00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.forgot-password:hover, .signup-link:hover {
+  color: #e63a00;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .signin-card {
+    padding-inline: 20px;
+  }
+
+  .signin-title {
+    font-size: 1.25rem;  
+  }
+
+  .signin-subtitle {
+    font-size: 0.875rem; 
+  }
+
+  .signin-btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  input {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .signin-card {
+    padding-inline: 20px;
+  }
+
+  .signin-title {
+    font-size: 1.125rem;  /* smaller title on mobile */
+  }
+
+  .signin-subtitle {
+    font-size: 0.75rem;  /* smaller subtitle on mobile */
+  }
+
+  label {
+    font-size: 0.875rem;  /* Smaller label text on mobile */
+  }
+
+  .signin-btn {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  input {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
