@@ -15,7 +15,7 @@ Skill Climbers is a developing e-learning platform designed to offer an engaging
 ## Live Demo
 [Skill Climbers Website](https://skillclimbers.netlify.app)
 
-## Technologies Used - Frontend
+## Technologies Used
 • Frontend: HTML, CSS, JavaScript
 
 ## Future Development
